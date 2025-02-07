@@ -7,9 +7,9 @@ import cors from "cors";
 import session from "express-session";
 import { EventEmitter } from "events";  // Import EventEmitter
 
-const redisClient = new redis({
+const redisClient = new redis(
   "redis://red-cuisnl5umphs73biqhb0:6379"
-});
+);
 
 redisClient.on("connect", () => {
   console.log("Connected to Redis");
