@@ -31,7 +31,7 @@ const FaqForm = ({ onFaqAdded }) => {
     const faqData = { question, answer, lang };
 
     try {
-      const response = await fetch("http://localhost:8000/api/faqs", {
+      const response = await fetch("https://bharatfdtest.onrender.com/api/faqs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(faqData),
