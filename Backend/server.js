@@ -8,8 +8,7 @@ import session from "express-session";
 import { EventEmitter } from "events";  // Import EventEmitter
 
 const redisClient = new redis({
-  host: "localhost", // Redis server host
-  port: 6379,        // Redis server port
+  "redis://red-cuisnl5umphs73biqhb0:6379"
 });
 
 redisClient.on("connect", () => {
