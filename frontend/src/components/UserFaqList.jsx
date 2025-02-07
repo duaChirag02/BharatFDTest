@@ -92,7 +92,7 @@ const FaqList = () => {
 
   // Fetch FAQs from the API
   const fetchFaqs = async () => {
-    const response = await fetch(`http://localhost:8000/api/faqs/?lang=${lang}`);
+    const response = await fetch(`https://bharatfdtest.onrender.com/api/faqs/?lang=${lang}`);
     const data = await response.json();
     setFaqs(data);
   };
