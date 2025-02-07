@@ -1,3 +1,5 @@
+Here is the live link - https://bharat-fd-test-git-main-chirags-projects-b53e7537.vercel.app/
+
 # FAQ - BharatFDTest
 
 A multilingual FAQ management system that allows users to create and retrieve FAQs with language translation support. Built with Node.js, MongoDB, Redis, and Quill.js.
