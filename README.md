@@ -1,5 +1,13 @@
 Here is the live link - https://bharat-fd-test-git-main-chirags-projects-b53e7537.vercel.app/
 
+Hosting Information
+
+The frontend is hosted on Vercel.
+
+The backend is hosted on Render.
+
+The Redis environment is also managed on Render.
+
 # FAQ - BharatFDTest
 
 A multilingual FAQ management system that allows users to create and retrieve FAQs with language translation support. Built with Node.js, MongoDB, Redis, and Quill.js.
